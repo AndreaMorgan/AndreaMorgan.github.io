@@ -51,67 +51,65 @@
 
     <!--GRID FOR CONTENTS ON PAGE-->
     <div class="container" style="max-width:95%; padding-bottom:10%; padding-top: 200px;">
-        
-        <div class="row">
 
-            <!--Larger container for main content on page -->
-            <div class="col-sm-8" style="padding-bottom: 40px;"> 
-                <div class="row" >
-                        <div class="col-sm" style="background-color:white; padding-top: 40px; padding-bottom: 40px;">
-                            <h3 class="border-bottom" style="background-color: white; padding-bottom:40px;" >Summary: Latitude vs. X </h3> 
-                            <p style="padding-top: 10px; background-color: white; margin-bottom: 0px;">
-                                    
-                            <img src="Resources/Fig1.png" class="img-fluid" style="float:left;max-width: 50%;" alt="Max Temp" />The purpose of this project was to analyze 
-                            how weather changes as you get closer to the equator.  To accomplish this analysis, we first pulled data from 
-                            the OpenWeatherMap API to assemble a dataset on over 500 cities.<br /><br />
-                            After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
-                            Factors we looked at included: temperature, cloudiness, wind speed, and humidity.  This site provides the source 
-                            data and visualizations created as part of the analysis, as well as explanations and descriptions of any 
-                            trends and correlations witnessed.</p>
-                        </div>                        
-                </div>
-            </div>
+            <div class="row">
 
-            <!--Side menu container with four figures-->
-            <div class="col-md-4" style="padding-bottom: 40px;">
-                <h4 class="border-bottom" style="background-color: white;padding-top: 40px; padding-bottom:20px; padding-left: 10px; margin-bottom: 0px;">Visualizations</h4>
-                <div class="row" style="padding-top: 40px;margin-left: 0px;margin-right: 0px;background-color: white;">
-                    <div class="col-sm-6" >
-                        <a href="#">
-                            <img src="Resources/Fig1.png" class="img-fluid" alt="Max Temp">
-                        </a>
-                    </div>
-                    <div class="col-sm-6" >
-                        <a href="#">
-                                <img src="Resources/Fig2.png" class="img-fluid" alt="Humidity">
-                        </a>
+                <!--Larger container for main content on page -->
+                <div class="col-sm-8" style="padding-bottom: 40px;"> 
+                    <div class="row" >
+                            <div class="col-sm" style="background-color:white; padding-top: 40px; padding-bottom: 40px;">
+                                <h3 class="border-bottom" style="background-color: white; padding-bottom:40px;" >Maximum Temperature </h3> 
+                                <img src="Resources/Fig1.png" class="img-fluid" style="max-width: 75%;" alt="Max Temp" />
+                                <p style="padding-top: 10px; background-color: white; margin-bottom: 0px;">
+                                        
+                                As expected, the weather becomes significantly warmer as one approaches
+                                the equator (0 Degrees Latitude).  More interestingly, however, is the fact that the southern hemisphere
+                                tends to be warmer this time of year than the northern hemisphere.  This may be due to the tilt
+                                of the earth at the time of the year this data was gathered.</p>
+                            </div>                        
                     </div>
                 </div>
-                <div class="row" style="padding-top: 40px; padding-bottom:40px; margin-left: 0px;margin-right: 0px;background-color: white;">
-                    <div class="col-sm-6" style="padding-bottom: 15px;">
-                        <a href="#">
-                            <img src="Resources/Fig3.png" class="img-fluid" alt="Cloudiness">
-                    </a>
+
+                <!--Side menu container with four figures-->
+                <div class="col-md-4" style="padding-bottom: 40px;">
+                    <h4 class="border-bottom" style="background-color: white;padding-top: 40px; padding-bottom:20px; padding-left: 10px; margin-bottom: 0px;">Visualizations</h4>
+                    <div class="row" style="padding-top: 20px; padding-bottom: 20px; margin-left: 0px;margin-right: 0px;background-color: white;">
+                        <div class="col-sm-6" style="border:3px solid rgb(207, 154, 145);">
+                            <a href="#">
+                                <img src="Resources/Fig1.png" class="img-fluid" alt="Max Temp">
+                            </a>
+                        </div>
+                        <div class="col-sm-6" >
+                            <a href="#">
+                                    <img src="Resources/Fig2.png" class="img-fluid" alt="Humidity">
+                            </a>
+                        </div>
                     </div>
-                    <div class="col-sm-6" style="padding-bottom: 15px;">
-                        <a href="#">
-                            <img src="Resources/Fig4.png" class="img-fluid" alt="Wind Speed">
-                    </a>
+                    <div class="row" style="padding-top: 20px; padding-bottom: 20px; margin-left: 0px;margin-right: 0px;background-color: white;">
+                        <div class="col-sm-6" style="padding-bottom: 15px;">
+                            <a href="#">
+                                <img src="Resources/Fig3.png" class="img-fluid" alt="Cloudiness">
+                        </a>
+                        </div>
+                        <div class="col-sm-6" style="padding-bottom: 15px;">
+                            <a href="#">
+                                <img src="Resources/Fig4.png" class="img-fluid" alt="Wind Speed">
+                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-<!--FOOTER-->
-    <div class="fixed-bottom;" style="background-color:rgb(207, 154, 145); border-top-style:dotted; border-color:black; border-top-width: 4px;">
-        <div class="col">
-            <h6 class="text-center"style="padding-bottom:20px; padding-top:20px;">©Andrea Morgan for Coding Bootcamp 2019</h6>
-        </div> 
-    </div>
-</body>
-
-
-
-
-</html>
+    
+    <!--FOOTER-->
+        <div class="fixed-bottom;" style="background-color:rgb(207, 154, 145); border-top-style:dotted; border-color:black; border-top-width: 4px;">
+            <div class="col">
+                <h6 class="text-center"style="padding-bottom:20px; padding-top:20px;">©Andrea Morgan for Coding Bootcamp 2019</h6>
+            </div> 
+        </div>
+    </body>
+    
+    
+    
+    
+    </html>
